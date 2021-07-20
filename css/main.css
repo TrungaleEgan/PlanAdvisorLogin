@@ -246,8 +246,10 @@ footer {
 }
 
 .footer-container {
-    display: grid;
-    place-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer-logo {
