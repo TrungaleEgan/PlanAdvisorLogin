@@ -243,6 +243,9 @@ footer {
     display: block;
     background-color: #f5f6f7;
     padding: 30px 0;
+    text-align: center;
+    color: #007cbb;
+    font-size: 15px;
 }
 
 .footer-container {
