@@ -132,6 +132,17 @@ h1 {
 #form-section .container {
     padding-top: 20px;
     border-top: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.column {
+    width: 50%;
+    min-width: 500px;
+    text-align: center;
 }
 
 form {
